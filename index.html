@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index.knit</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Marion Hoffman</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="#about">About me</a>
+</li>
+<li>
+  <a href="#projects">Projects</a>
+</li>
+<li>
+  <a href="#experience">Experience</a>
+</li>
+<li>
+  <a href="#publications">Publications</a>
+</li>
+<li>
+  <a href="#contact">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/marion-hoffman">
+    <span class="fab fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?user=zto5aeIAAAAJ&amp;hl=en&amp;oi=ao">
+    <span class="fa fa-graduation-cap"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<p><img src="img/canal2.jpg" alt="canal" style="width:100%;transform:translateY(-20%);margin: 0px 0px -100px 0px" align="center"></img></p>
+<p><img src="img/Marion_iast_square.jpg" alt="marion" style="height:350px;margin: 40px 40px -80px 40px;border-radius:50%;transform:translateY(-30%);border: 8px solid #fff;" align="left"></img></p>
+<p><br></p>
+<div style="width:80%;margin: auto;">
+
+<div id="marion-hoffman" class="section level1">
+<h1>Marion Hoffman</h1>
+<p style="font-size:1.3em">
+Mathematical Sociologist
+</p>
+<p style="font-size:1.1em">
+<span style="color:#7D9F99">Social networks and network statistical
+models</span>
+</p>
+<p style="font-size:1.1em">
+Research Fellow | <em>Institute for Advanced Study in Toulouse, Toulouse
+School of Economics 🇫🇷 (<a
+href="https://www.iast.fr/people/marion-hoffman">IAST</a>)</em>
+</p>
+<p style="font-size:1.1em">
+Postdoctoral Researcher | <em>Department of Sociology, University of
+Zurich 🇨🇭 (<a
+href="https://www.suz.uzh.ch/de/institut/aboutus/mid_level/hoffman.html">UZH</a>)</em>
+</p>
+<p><br><br><br><br></p>
+<p><img src="img/net1-green.png" alt="net" style="height:200px;margin: 30px 20px 20px -100px;transform:translateX(-10px);" align="left"></img></p>
+<div id="about" class="section level2">
+<h2>About me</h2>
+<p>My research aims at furthering statistical methods for the analysis
+of social networks. I focus on the development of relational event
+models, exponential family models for social group data, and models for
+mobility networks. In my work, I use concepts from many different
+disciplines: sociology, statistics, psychology, economics, biology…</p>
+<p>I have been working on several empirical studies using this type of
+methods, to understand: socioeconomic segregation, the link between
+depressive symptoms, the coordination of states at the UN General
+Assembly, the social dynamics in an elite organization in France…</p>
+<p>Besides work, I try to live a life with a minimal impact on the
+environment. I love climbing, playing volleyball, watching rugby, doing
+pottery, and enjoying our beautiful nature.</p>
+<p><br><br></p>
+</div>
+<div id="projects" class="section level2">
+<h2>Projects</h2>
+<table style="background-color:#EBF1F0; border-radius:10px; width:100%;">
+<tr>
+<td style="padding:10px;">
+<p><img src="img/interactions.png" alt="net" style="width:300px;margin: 0px 20px 0px 0px;" align="left"></img></p>
+<div id="analyzing-the-determinants-of-social-interactions"
+class="section level3">
+<h3>Analyzing the determinants of social interactions</h3>
+<p>Face-to-face interactions are a key aspect of our social lives and
+understanding why they come about is an essential task to answer
+questions such as: Why do certain individuals interact more than others?
+Do our socioeconomic status or our environment affect who we can
+interact with?</p>
+<p><br></p>
+<p>In my PhD thesis and some continuing projects, I have designed
+statistical tools that are tailored to explain the emergence of
+face-to-face interactions. The main challenge is to take into account
+the punctual nature of interactions and their common occurence in groups
+rather than dyads. I have applied these methods to understand whether
+adolescents interact in socioeconomically homogenous groups and whether
+individuals with depressive symptoms preferred interacting in pairs
+rather than groups.</p>
+</table>
+<p><br></p>
+<table style="background-color:#EBF1F0; border-radius:10px; width:100%;">
+<tr>
+<td style="padding:10px;">
+<p><img src="img/groups.png" alt="net" style="width:300px;margin: 0px 0px 0px 20px;" align="right"></img></p>
+</div>
+<div id="modeling-social-groups" class="section level3"
+style="text-align: right">
+<h3>Modeling social groups</h3>
+<p>Groups are a core unit of social organization. The significance of
+group relations has long been documented and emphasized, as well their
+impact on individuals’ cognition, social connections, and personal
+outcomes. But what drives the formation and evolution of groups? Which
+compositions are more likely to emerge?</p>
+<p><br></p>
+<p>Much of my methodological work has focused on extending statistical
+models for networks (i.e., dyadic relations) to social group data. I
+have developed two models with a readily available implementation of
+their estimation in R: DyNAM-i (Dynamic Network Actor Model for
+interactions, part of the <a
+href="https://github.com/stocnet/goldfish">Goldfish</a> package) and
+ERPM (Exponential Random Partition model, in my <a
+href="https://github.com/marion-hoffman/erpm">ERPM</a> package).</p>
+</div>
+</table>
+<p><br></p>
+<table style="background-color:#EBF1F0; border-radius:10px; width:100%;">
+<tr>
+<td style="padding:10px;">
+<p><img src="img/mobility.png" alt="net" style="width:300px;margin: 0px 20px 0px 0px;" align="left"></img></p>
+<div id="understanding-mobility-networks" class="section level3">
+<h3>Understanding mobility networks</h3>
+<p>Mobility between jobs, occupations, or countries is a crucial topic
+in sociological research. In many types of mobility, individuals’ moves
+between states or locations are endogenous. Because of this endogeneity,
+mobility has increasingly been represented as a network, where nodes
+represent jobs, occupations, or geographical locations, and edges
+represent the flows of individuals between those. What determines the
+structure of these networks?</p>
+<p><br></p>
+<p>I am working on developing a novel statistical framework proposed by
+Per Block for the analysis of mobility networks. The goal of this model
+is to test endogenous mechanisms explaining mobility flows, such as
+bandwagon effects. The model can already be used using the R package <a
+href="https://github.com/stocnet/MoNAn">MoNAn</a>.</p>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="experience" class="section level2">
+<h2>Experience</h2>
+<p><img src="img/net2-green.png" alt="net" style="height:200px;margin: 0px -80px 0px 0px;transform:translateX(1px);" align="right"></img></p>
+<p>2022 - present | <strong>Postdoctoral Researcher</strong> Department
+of Sociology, University of Zurich</p>
+<p>2021 - present | <strong>Research Fellow</strong> Institute for
+Advanced Study in Toulouse, University of Toulouse 1 Capitole</p>
+<p>2016 - 2021 | <strong>PhD</strong> Social Networks Lab, ETH
+Zurich</p>
+<p>2015 - 2016 | <strong>MSc</strong> Network Industries and Digital
+Economics, Paris-Saclay University</p>
+<p>2012 - 2016 | <strong>MSc</strong> Science and Engineering, Supélec
+(now CentraleSupélec)</p>
+<p><a href="doc/CV_2024_short.pdf">See resume</a></p>
+<p><br></p>
+</div>
+<div id="teaching" class="section level2">
+<h2>Teaching</h2>
+<p>2023 - present | <strong>Graph Analysis</strong> (lecturer and
+coordinator) at the Toulouse School of Economics</p>
+<p>2022 - present | Guest lecturer for courses on <strong>Relational
+Event Models</strong> and <strong>Exponential Random Graph
+Models</strong> at the Geneva Graduate Insitute and at the University of
+Salerno</p>
+<p>2020 | <strong>Network Modeling</strong> (teaching assistant) at ETH
+Zürich</p>
+<p>2017 - present | Teaching workshops for the <strong>R packages <a
+href="https://github.com/stocnet/goldfish">Goldfish</a> and <a
+href="https://github.com/stocnet/rsiena">RSiena</a></strong></p>
+<p><br></p>
+</div>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<table style="background-color:#EBF1F0; border-radius:10px; width:100%;">
+<tr>
+<td style="padding:10px;">
+<p><a
+href="https://www.sciencedirect.com/science/article/pii/S0378873323000291">The
+role of selection in socioeconomic homophily: Evidence from an
+adolescent summer camp</a><br>M Hoffman &amp; T Chabot<br><em>Social
+Networks</em>, 2023</p>
+<p><a
+href="https://journals.sagepub.com/doi/abs/10.1177/00811750221145166">Modeling
+partitions of individuals</a><br> M Hoffman, P Block, TAB Snijders<br>
+<em>Sociological Methodology</em>, 2023</p>
+<p><a href="https://www.nature.com/articles/s41562-020-0898-6">Social
+network-based distancing strategies to flatten the COVID-19 curve in a
+post-lockdown world</a><br> P Block, M Hoffman, IJ Raabe, JB Dowd, C
+Rahal, R Kashyap, MC Mills<br> <em>Nature Human Behaviour</em>, 2020</p>
+<p><a
+href="https://www.cambridge.org/core/journals/network-science/article/model-for-the-dynamics-of-facetoface-interactions-in-social-groups/5EE32074370B3C443EE9AA2519602338">A
+model for the dynamics of face-to-face interactions in social
+groups</a><br> M Hoffman, P Block, T Elmer, C Stadtfeld<br> <em>Network
+Science</em>, 2020</p>
+<p><a href="publications.html">See all publications &gt;&gt;</a></p>
+</td>
+</tr>
+</table>
+<p><br></p>
+<p><img src="img/net3-green.png" alt="net" style="height:120px;margin: 0px 0px 0px -10px;transform:translateX(-40px);" align="left"></img></p>
+</div>
+<div id="contact" class="section level2">
+<h2>Contact</h2>
+<p>If you want to get in touch, you can reach me at: <a
+href="mailto:marion.hoffman@iast.fr">marion.hoffman@iast.fr</a> or <a
+href="mailto:hoffman@soziologie.uzh.ch">hoffman@soziologie.uzh.ch</a></p>
+</div>
+<script type="text/javascript">
+$(function() {
+    // Get page title
+    var pageTitle = $("title").text("Marion Hoffman");
+    });
+</script>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
