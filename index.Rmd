@@ -15,8 +15,7 @@ output: html_document
 
 <p style="font-size:1.3em">Mathematical Sociologist</p>
 <p style="font-size:1.1em"><span style="color:#7D9F99">Social networks and network statistical models</span></p>
-<p style="font-size:1.1em">Research Fellow | *Institute for Advanced Study in Toulouse, Toulouse School of Economics 🇫🇷 ([IAST](https://www.iast.fr/people/marion-hoffman))*</p>
-<p style="font-size:1.1em">Postdoctoral Researcher | *Department of Sociology, University of Zurich 🇨🇭 ([UZH](https://www.suz.uzh.ch/de/institut/aboutus/mid_level/hoffman.html))*</p>
+<p style="font-size:1.1em">Assistant Professor | *Institute for Advanced Study in Toulouse, Toulouse School of Economics 🇫🇷 ([IAST](https://www.iast.fr/people/marion-hoffman))*</p>
 
 <br><br><br><br>
 
@@ -96,9 +95,11 @@ I am working on developing a novel statistical framework proposed by Per Block f
 
 <img src="img/net2-green.png" alt="net" style="height:200px;margin: 0px -80px 0px 0px;transform:translateX(1px);" align="right"></img>
 
-2022 - present | **Postdoctoral Researcher** Department of Sociology, University of Zurich
+2024 - Present | **Assistant Professor** Department of Social and Behavioral Sciences & Institute for Advanced Study in Toulouse, Toulouse School of Economics
 
-2021 - present | **Research Fellow** Institute for Advanced Study in Toulouse, University of Toulouse 1 Capitole
+2022 - 2024 | **Postdoctoral Researcher** Department of Sociology, University of Zurich
+
+2021 - 2024 | **Research Fellow** Institute for Advanced Study in Toulouse, University of Toulouse 1 Capitole
 
 2016 - 2021 | **PhD** Social Networks Lab, ETH Zurich
 
