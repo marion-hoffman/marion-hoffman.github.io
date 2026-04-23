@@ -11,6 +11,12 @@ output: html_document
 
 ### Peer-reviewed publications
 
+[Models for emergent structures in mobility: specification and individual-level interpretation](https://academic.oup.com/jrsssa/advance-article/doi/10.1093/jrsssa/qnag057/8659714)<br>M Hoffman & P Block<br>*Journal of the Royal Statistical Society Series A: Statistics in Society*, 2026
+
+[Dyadic Isolation in Social Interactions: The Role of Depressive Symptoms](https://journals.sagepub.com/doi/10.1177/01902725241276407)<br>M Hoffman, C Stadtfeld, T Elmer<br>*Social Psychology Quaterly*, 2025
+
+[Social and spatial predictors of collective search behaviors](https://www.nature.com/articles/s41598-025-02460-7)<br>M Hoffman, T Thrash, C Hölscher, M Kapadia, VR Schinazi<br>*Scientific Reports*, 2025
+
 [Antecedents of student team formation in higher education](https://www.sciencedirect.com/science/article/pii/S0959475224000586)<br>CA de Matos Fernandes, M Hoffman & J Brouwer<br>*Learning and Instruction*, 2024
 
 [The role of selection in socioeconomic homophily: Evidence from an adolescent summer camp](https://www.sciencedirect.com/science/article/pii/S0378873323000291)<br>M Hoffman & T Chabot<br>*Social Networks*, 2023
@@ -21,7 +27,7 @@ M Hoffman, P Block, TAB Snijders<br>
 
 [The Swiss StudentLife Study: Codebook](https://www.sciencedirect.com/science/article/pii/S037887332030099X)<br>
 T Elmer, K Mepham, M Hoffman, Z Boda, IJ Raabe, A Vörös & C Stadtfeld<br>
-*PsyArXiv*, 2022
+*PsyArXiv*, 2022 [not peer-reviewed]
 
 [The Swiss StudentLife Study: Investigating the emergence of an undergraduate community through dynamic, multidimensional social network data](https://www.sciencedirect.com/science/article/pii/S037887332030099X)<br>
 A Vörös, Z Boda, T Elmer, M Hoffman, K Mepham, IJ Raabe & C Stadtfeld<br>
@@ -43,12 +49,32 @@ K Graser, Y Wang, M Hoffman, MM Bonanomi, M Kohler & D Hall<br>
 
 ### Conference presentations
 
+**Micro-level interpretation of statistical models for social groups – A game theoretical approach**<br>
+M Hoffman, P Bayer, M Keijzer, V Amati<br>
+*19th Annual Conference of the International Network of Analytical Sociology, Oxford, UK*, 2026, Jul 1-3
+
+**Modeling emergent structures in mobility networks**<br>
+M Hoffman, P Block, C Noack<br>
+*45th Sunbelt Conference, Paris, France* 2025, Jun 23-28
+
+**Modeling emergent structures in mobility networks**<br>
+M Hoffman, P Block, C Noack<br>
+*Atelier Réseaux Sociaux du Labex SMS, Toulouse, France* 2025, Jun 19
+
+**An agent-based interpretation of exponential family models for graphs and partitions**<br>
+M Hoffman<br>
+*Workshop on Empirically-Calibrated Agent-Based Models for Mechanism-Based Research, Toulouse, France*, 2024, Dec 11-13
+
+**Modeling the mechanisms driving the co-constitution of groups and individuals at the Commercial Court of Paris**<br>
+M Hoffman & E Lazega<br>
+*44th Sunbelt Conference, Edinburgh, UK*, 2024, Jun 24-30
+
 **From movement comes stability: Modeling the mechanisms driving the co-constitution of groups and individuals at the Commercial Court of Paris**<br>
 M Hoffman & E Lazega<br>
 *Duality Workshop, ETH Zürich, Switzerland*, 2024, Apr 15-18
 
 **Specifying attribute effects in statistical models for groups – A game theoretical approach**<br>
-M Hoffman, P Bayer, M Keijzer, M Kleshnina, V Amati S<br>
+M Hoffman, P Bayer, M Keijzer, V Amati<br>
 *ARS'23 Ninth International Workshop on Social Network Analysis, Naples, Italy*, 2023, May 2-3
 
 **Specification of attribute effects in statistical models for social groups**<br>
@@ -69,7 +95,7 @@ P Block, M Hoffman, IJ Raabe, JB Dowd, C Rahal, R Kashyap, MC Mills<br>
 
 **From dyads to groups: A partition model for non-overlapping groups**<br>
 M Hoffman, P Block, TAB Snijders<br> 
-*XXXVIIV Sunbelt Conference, Paris, France*, 2020, Jul 13-17 
+*40th Sunbelt Conference, Paris, France (online)*, 2020, Jul 13-17 
 
 **A partition model for membership of non-overlapping groups**<br>
 M Hoffman, P Block, TAB Snijders<br>
@@ -81,36 +107,38 @@ M Hoffman, P Block P, T Elmer, C Stadtfeld<br>
 
 **A statistical model for the analysis of face-to-face interactions**<br>
 M Hoffman, P Block, T Elmer, C Stadtfeld<br> 
-*XXXVIII Sunbelt Conference, Utrecht, the Netherlands*, 2018, Jun 26 - Jul 1
+*38th Sunbelt Conference, Utrecht, the Netherlands*, 2018, Jun 26 - Jul 1
 
 
 ---
 
 ### Invited talks
 
-**Satellite Symposium “Statistical Inference for Network Models”**<br>
-NetSci 2023 Conference in Vienna, Austria (2023 July 11)
+The Institute for Analytical Sociology Seminar, **Linköping University**, Sweden (2026 Apr 16)
 
-**Statistics seminar**<br>
-University of Kent, UK (2023 Mar 16)
+Statistics seminar series, jointly hosted by **Trinity College Dublin** and **University College Dublin**, Ireland (2025 Dec 4)
 
-**Séminaire Savoir, réseaux, et médiation**<br>
-Université Toulouse Jean Jaurès, France (2023 Jan 27)
+Statistic Seminar, **Carnegie Mellon University**, online (2025 Sep 12)
 
-**Mathematics and Statistics seminar**<br>
-Toulouse School of Economics, France (2022 Dec 8)
+Statistics Seminar, **University of New South Wales**, Australia (2024 Nov 25)
 
-**Symposium on Social network and demographic models**<br>
-CEFE-CNRS, University of Montpellier (2022 Oct 10-11)
+Satellite Symposium “Statistical Inference for Network Models”, **NetSci 2023 Conference** in Vienna, Austria (2023 July 11)
 
-**Mitchell Center Seminar**<br>
-University of Manchester, UK (2022 Feb 23)
+Statistics seminar, **University of Kent**, online (2023 Mar 16)
 
-**Seminar of the Leverhulme Centre for Demographic Science**
-University of Oxford, UK (2020 Mar 11)
+Séminaire Savoir, réseaux, et médiation, **Université Toulouse Jean Jaurès**, France (2023 Jan 27)
 
-**Sociology Colloquium**<br>
-University of Groningen, The Netherlands (2019 Nov 27)
+Mathematics and Statistics seminar, **Toulouse School of Economics**, France (2022 Dec 8)
+
+Symposium on Social network and demographic models, **CEFE-CNRS, University of Montpellier**, France (2022 Oct 10-11)
+
+Mitchell Center Seminar, **University of Manchester**, UK (2022 Feb 23)
+
+Invited talk at the **Costnet Conference on Covid-19**, online (2020 Jul 10)
+
+Seminar of the Leverhulme Centre for Demographic Science, **University of Oxford**, UK (2020 Mar 11)
+
+Sociology Colloquium, **University of Groningen**, The Netherlands (2019 Nov 27)
 
 
 </div>

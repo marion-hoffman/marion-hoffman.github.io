@@ -27,7 +27,7 @@ My research aims at furthering statistical methods for the analysis of social ne
 
 I have been working on several empirical studies using this type of methods, to understand: socioeconomic segregation, the link between depressive symptoms, the coordination of states at the UN General Assembly, the social dynamics in an elite organization in France...
 
-Besides work, I try to live a life with a minimal impact on the environment. I love climbing, playing volleyball, watching rugby, doing pottery, and enjoying our beautiful nature.  
+Besides work, I try to live a life with a minimal impact on the environment. I love playing volleyball, watching rugby, doing pottery, and being in nature (hiking, cycling, climbing, running...).  
 
 <br><br>
 
@@ -107,11 +107,13 @@ I am working on developing a novel statistical framework proposed by Per Block f
 
 2012 - 2016 | **MSc** Science and Engineering, Supélec (now CentraleSupélec)
 
-[See resume](doc/CV_2024_short.pdf)
+[See resume](doc/CV_2026_short.pdf)
 
 <br>
 
 ## Teaching
+
+2024 - present | **Introduction to Sociology** (lecturer and coordinator) at the Toulouse School of Economics
 
 2023 - present | **Graph Analysis** (lecturer and coordinator) at the Toulouse School of Economics
 
@@ -128,6 +130,10 @@ I am working on developing a novel statistical framework proposed by Per Block f
 ## Publications 
 
 <table style="background-color:#EBF1F0; border-radius:10px; width:100%;"><tr><td style="padding:10px;">
+
+[Models for emergent structures in mobility: specification and individual-level interpretation](https://academic.oup.com/jrsssa/advance-article/doi/10.1093/jrsssa/qnag057/8659714)<br>M Hoffman & P Block<br>*Journal of the Royal Statistical Society Series A: Statistics in Society*, 2026
+
+[Dyadic Isolation in Social Interactions: The Role of Depressive Symptoms](https://journals.sagepub.com/doi/10.1177/01902725241276407)<br>M Hoffman, C Stadtfeld, T Elmer<br>*Social Psychology Quaterly*, 2025
 
 [The role of selection in socioeconomic homophily: Evidence from an adolescent summer camp](https://www.sciencedirect.com/science/article/pii/S0378873323000291)<br>M Hoffman & T Chabot<br>*Social Networks*, 2023
 
@@ -153,7 +159,7 @@ M Hoffman, P Block, T Elmer, C Stadtfeld<br>
 
 ## Contact {#contact}
 
-If you want to get in touch, you can reach me at: [marion.hoffman@iast.fr](mailto:marion.hoffman@iast.fr) or [hoffman@soziologie.uzh.ch](mailto:hoffman@soziologie.uzh.ch)
+If you want to get in touch, you can reach me at: [marion.hoffman@iast.fr](mailto:marion.hoffman@iast.fr)
 
 
 <br><br><br>
